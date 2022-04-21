@@ -1,0 +1,47 @@
+/* GLOBAL STYLES */
+h1{
+    color: royalblue;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 250%;
+
+}
+h2, h3{
+    color: rgb(106, 6, 246);
+    font-family: cursive;
+    font-weight: 500;
+
+}
+body{
+    margin: 2em;
+}
+body, input[type= "text"], button{
+    color: royalblue;
+    font-family: cursive;
+    font-weight: 200;
+    font-size: medium;
+}
+button {
+    background-color: aliceblue;
+    border: none;
+    border-radius: 4%;
+    cursor: pointer;
+    color: black;
+    font-size: 1.2em;
+    padding: 1rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+button:hover{
+    color: antiquewhite;
+    background-color: blue;
+}
+button:disabled{
+    cursor: auto;
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
